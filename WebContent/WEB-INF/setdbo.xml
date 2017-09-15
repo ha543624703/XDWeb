@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<setdbo>
+	<ldap>
+		<driver>com.sun.jndi.ldap.LdapCtxFactory</driver>
+		<host>ldap://127.0.0.1</host>
+		<port>389</port>
+		<searchbase>ou=KINGO,o=Kingosoft,c=cn</searchbase>
+		<rootdn>cn=Manager,o=Kingosoft,c=cn</rootdn>
+		<password>secret</password>
+		<authentication>simple</authentication>
+	</ldap>
+	<sql>
+		<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+		<connect>jdbc:microsoft:sqlserver://127.0.0.1;databaseName=lportal</connect>
+		<manager>sa</manager>
+		<password>123456</password>
+	</sql>
+	<mh>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<connect>jdbc:oracle:thin:@192.168.1.152:1521:ORCL</connect>
+		<manager>jcjgpt</manager>
+		<password>123456</password>
+	</mh>
+</setdbo>

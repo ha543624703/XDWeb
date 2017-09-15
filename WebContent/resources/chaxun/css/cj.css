@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.view{ width:100%; height:auto; font-size:16px;}
+.tabs{ border-collapse:collapse; color:#555;}
+.tabs th{ border:1px solid #6295d7; line-height:24px; text-align:center; padding:8px;}
+.tabs td{ border:1px solid #6295d7; line-height:24px; text-align:center; padding:8px;}

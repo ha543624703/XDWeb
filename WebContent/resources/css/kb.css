@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.kb{ width:100%; height:auto; font-size:16px; background:#eaf3fa; padding-bottom:8px;}
+.data{ border-collapse:collapse; color:#333; font-size:14px; table-layout:fixed;}
+.data th{ border:0px; line-height:24px; text-align:center; padding:10px 0px; background:#b6d6ff;}
+.data td{ border:0px; width:200px; height:auto; text-align:center; padding:10px 10px 0px 0px; word-wrap:break-word;}
+
+.cor1{ width:100%; height:100%; display:block; background:#9656f3; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
+.cor2{ width:100%; height:100%; display:block; background:#10c5da; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
+.cor3{ width:100%; height:100%; display:block; background:#fda134; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
+.cor4{ width:100%; height:100%; display:block; background:#ff687b; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
+.kb p{ font-size:14px; line-height:16px; color:#fff; padding:10px 5px;}

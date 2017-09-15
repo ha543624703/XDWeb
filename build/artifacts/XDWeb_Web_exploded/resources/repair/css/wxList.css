@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ font-size:11pt; background:#ededed; color:#000; font-family:"Microsoft YaHei","Arial"; -webkit-tap-highlight-color:rgba(255,0,0,0);}
+input{ outline:none; font-size:11pt;}
+li{ list-style:none;}
+a,a:hover{ color:#607fa6; text-decoration:none;}
+
+.banner{ width:1000px; height:90px; margin:0px auto; background:#3994e0; overflow:hidden;}
+.banner h1{ font-size:24px; line-height:90px; text-align:center; color:#fff;}
+
+.banner{ width:1000px; height:auto; margin:0px auto; overflow:hidden;}
+.nav{ width:998px; height:42px; margin:0px auto; line-height:42px; background:#f5f5f5; border:1px solid #165aa1;}	
+.tabView{ width:1000px; height:auto; margin:0px auto; overflow:hidden; background:#fff;} 
+
+.hdm{ width:auto; height:42px; font-size:11pt;}
+.hdm li{ float:left; width:33.33%; height:42px; line-height:42px; display:inline-block; text-align:center; cursor:pointer; color:#0a3d8c;}
+.hdm li.current{ color:#fff; display:inline-block; background:#165aa1;}
+.hdm li#hdm_1{ border-right:1px solid #165aa1; box-sizing:border-box;}
+.hdm li#hdm_3{ border-left:1px solid #165aa1; box-sizing:border-box;}
+.dis{ display:block;}
+.undis{ display:none;}
+.line{ width:auto; height:auto;}
+.line li{ width:100%; height:78px; border-bottom:1px solid #eee;}
+.line p{ line-height:24px;}
+.line p span{ float:right; color:#888;}
+.line p strong{ font-size:12pt; color:#000; font-weight:normal;}
+.line p i.dsh{ float:right; font-size:10pt; color:#165aa1; font-style:normal;}
+.line p i.ysh{ float:right; font-size:10pt; color:#0f8b0e; font-style:normal;}
+.line p i.wtg{ float:right; font-size:10pt; color:#ff0000; font-style:normal;}
+.line p em{ color:#999; font-style:normal;}
+.line li a{ display:block; padding:15px;}
+.line li:hover a{ background:#f8f8f8;}
+
+.more{ width:100%; height:45px; text-align:center; background:#fff;}
+.more span{ display:block; line-height:45px; font-size:12pt;}
+.more a,.more a:hover{ display:block; color:#000;}
+.more:hover a{ background:#f8f8f8;}

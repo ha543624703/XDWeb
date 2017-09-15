@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{ font-size:14px; color:#333; font-family:"Microsoft YaHei";}
+li{ list-style:none;}
+img{ border:0px;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#143270; text-decoration:underline;}
+
+.header{ width:100%; height:100px; background:#0661a8;}
+.head{ width:1200px; height:100px; margin:0px auto;} 
+.logo{ float:left; width:550px; height:100px; background:url(../images/logo.png) no-repeat 0px center;}
+.exit{ float:right; width:164px; height:36px; padding-top:46px;}
+.exit li{ float:right; line-height:36px;}
+.exit a,.exit a:Hover{ display:block; padding:0px 16px; color:#fff; font-size:14px;}
+.exit li.zx{ background:url(../images/zx.png) no-repeat 0px center;}
+.exit li.gm{ background:url(../images/gm.png) no-repeat 0px center;}
+
+.banner{ position:relative; width:100%; height:auto; overflow:hidden; font:0px "宋体";}
+.slides{ position:relative; height:auto; overflow:hidden;}
+.slides li a{ display:block;}
+.slides img{ width:100%;}
+.flex-control-nav{ position:absolute; bottom:20px; z-index:2; left:50%; margin-left:-34px; text-align:center;}
+.flex-control-nav li{ float:left; display:block; width:12px; height:12px; margin:0px 5px;}
+.flex-control-nav a{ display:block; width:12px; height:12px; border-radius:12px; overflow:hidden; background:#fff; cursor:pointer;}
+.flex-control-nav .flex-active{background:#143270;}
+
+.main{ width:1200px; height:auto; margin:0px auto; overflow:hidden;}
+.main1{ width:100%; background:#f5f5f5; padding:15px 0px 30px 0px;}
+.main2{ padding:15px 0px 30px 0px;}
+.left{ float:left; width:30%; height:auto;}
+.info{ width:100%; height:auto;}
+.todo{ width:100%; height:auto;}
+.right{ float:right; width:67.5%; height:auto;}
+.dynamic{ width:100%; height:auto;}
+.news{ float:left; width:52%; height:280px;}
+.notice{ float:left; width:48%; height:280px;}
+
+.titles{ width:100%; height:36px; line-height:36px;}
+.titles span{ font-size:20px; color:#143270; font-weight:bold;}
+.titles i{ float:right; font-size:14px; font-style:normal;}
+
+.view{ width:100%; height:auto; margin-top:15px; overflow:hidden;} 
+.photo{ height:90px; padding:15px; background:#eee; border-bottom:1px solid #ddd;}
+
+.photoImg{ float:left; width:90px; height:90px;}
+.photoImg img{ width:90px; height:90px; border-radius:90px;}
+.record{ width:auto; margin-left:106px; line-height:30px;}
+.record h1{ font-size:16px; font-weight:normal;}
+.record h2{ font-size:24px; color:#143270;}
+.record h3{ font-size:12px; font-weight:normal;}
+
+.basic{ height:78px; padding:16px 18px; background:#eee;}
+.basic li{ float:left; width:50%; line-height:25px; text-align:left; color:#143270;}
+
+.db{ height:240px; padding:15px; line-height:40px; background:#eee;}
+.db h1{ font-size:14px;}
+.db li a,.db li a:hover{ color:#143270;}
+.db li strong{ color:#f00; padding:0px 3px; font-weight:normal;}
+.db span{ float:right;}
+
+.hlbox{ height:36px; line-height:36px; font-size:20px; padding-right:30px;}
+.hdm{ float:left; width:240px; height:36px;}
+.hdm li{ float:left; width:auto; height:36px; line-height:36px; text-align:center; cursor:pointer; margin-right:10px; font-weight:bold;}
+.current{ color:#143270;}
+.more{ float:right; width:auto; height:36px; font-size:14px; display:inline-block;}
+.more span{ line-height:36px;}
+.dis{ display:block;}
+.undis{ display:none;}
+.hlView{ height:auto; padding-right:30px;}
+.hlList ul{ padding:4px 0px;}
+.hlList li{ line-height:39px;}
+.hlList span{ float:right; color:#555;}
+.hlList a{ color:#143270;}
+
+.entry{ padding-bottom:32px;}
+.times{ float:left; width:62px; height:50px; background:#fff; text-align:center; border:1px solid #eee;}
+.times h1{ background:#143270; line-height:25px; font-size:14px; color:#fff;}
+.times p{ line-height:25px; font-size:10px;}
+.conts{ width:auto; height:52px; margin-left:72px;}
+.conts h1{ font-size:14px; line-height:25px; color:#143270;}
+.conts p{ line-height:25px; color:#555;}
+
+.icons{ height:auto; overflow:hidden;}
+.icons li{ float:left; width:25%; height:38px; padding-bottom:15px;}
+.icons a,.icons a:hover{ display:block; color:#fff; text-decoration:none; font-size:16px; padding-left:50px;}
+.icons span{ display:block; height:38px; line-height:38px; margin:0px 10px;}
+
+.oabg{ background:#be1301 url(../images/app01.png) no-repeat 12px center;}
+.gdzc{ background:#d16302 url(../images/app02.png) no-repeat 13px center;}
+.sfrz{ background:#0284e8 url(../images/app03.png) no-repeat 13px center;}
+.jwxt{ background:#ec1801 url(../images/app04.png) no-repeat 12px center;}
+.xgxt{ background:#8016ac url(../images/app05.png) no-repeat 13px center;}
+.wzjq{ background:#01ade6 url(../images/app06.png) no-repeat 13px center;}
+.tsgl{ background:#578301 url(../images/app07.png) no-repeat 13px center;}
+
+.oabg:hover{ background:#b41100 url(../images/app01.png) no-repeat 12px center;;}
+.gdzc:hover{ background:#c55c00 url(../images/app02.png) no-repeat 13px center;}
+.sfrz:hover{ background:#027bd9 url(../images/app03.png) no-repeat 13px center;}
+.jwxt:hover{ background:#e01600 url(../images/app04.png) no-repeat 12px center;}
+.xgxt:hover{ background:#7811a3 url(../images/app05.png) no-repeat 13px center;}
+.wzjq:hover{ background:#01a4da url(../images/app06.png) no-repeat 13px center;}
+.tsgl:hover{ background:#517a00 url(../images/app07.png) no-repeat 13px center;}
+
+.icons2{ height:auto; overflow:hidden;}
+.icons2 li{ float:left; width:61px; height:86px; margin:0px 10px; text-align:center;}
+.icons2 span{ display:block; width:61px; height:61px;}
+.icons2 p{ line-height:25px;}
+.icons2 a,.icons2 a:hover{ display:block; color:#143270; text-decoration:none; font-size:14px; font-weight:bold;}
+
+.kbcx{ background:#679b00 url(../images/icon01.png) no-repeat center;}
+.jxjh{ background:#c0392b url(../images/icon02.png) no-repeat center;}
+.xscx{ background:#0099ff url(../images/icon03.png) no-repeat center;}
+.cjlr{ background:#c0092b url(../images/icon04.png) no-repeat center;}
+.jcxy{ background:#2980b9 url(../images/icon05.png) no-repeat center;}
+.tksq{ background:#8e44ad url(../images/icon06.png) no-repeat center;}
+.wdjk{ background:#018e72 url(../images/icon07.png) no-repeat center;}
+.wdgz{ background:#e67e22 url(../images/icon08.png) no-repeat center;}
+.xlck{ background:#679b00 url(../images/icon09.png) no-repeat center;}
+.jxpj{ background:#c0392b url(../images/icon10.png) no-repeat center;}
+.szkk{ background:#0099ff url(../images/icon11.png) no-repeat center;}
+.cjxg{ background:#c0092b url(../images/icon12.png) no-repeat center;}
+
+.hksq{ background:#679b00 url(../images/icon13.png) no-repeat center;}
+.wsxk{ background:#c0392b url(../images/icon14.png) no-repeat center;}
+.ksbm{ background:#0099ff url(../images/icon15.png) no-repeat center;}
+.grxx{ background:#c0092b url(../images/icon16.png) no-repeat center;}
+.kbcx{ background:#2980b9 url(../images/icon17.png) no-repeat center;}
+.cjcx{ background:#8e44ad url(../images/icon18.png) no-repeat center;}
+.djks{ background:#018e72 url(../images/icon19.png) no-repeat center;}
+.wdks{ background:#e67e22 url(../images/icon20.png) no-repeat center;}
+
+.kbcx:hover{ background:#609001 url(../images/icon01.png) no-repeat center;}
+.jxjh:hover{ background:#b43225 url(../images/icon02.png) no-repeat center;}
+.xscx:hover{ background:#0192f2 url(../images/icon03.png) no-repeat center;}
+.cjlr:hover{ background:#b20827 url(../images/icon04.png) no-repeat center;}
+.jcxy:hover{ background:#2276ad url(../images/icon05.png) no-repeat center;}
+.tksq:hover{ background:#833ca0 url(../images/icon06.png) no-repeat center;}
+.wdjk:hover{ background:#018067 url(../images/icon07.png) no-repeat center;}
+.wdgz:hover{ background:#d8731a url(../images/icon08.png) no-repeat center;}
+.xlck:hover{ background:#609001 url(../images/icon09.png) no-repeat center;}
+.jxpj:hover{ background:#b43225 url(../images/icon10.png) no-repeat center;}
+.szkk:hover{ background:#0192f2 url(../images/icon11.png) no-repeat center;}
+.cjxg:hover{ background:#b20827 url(../images/icon12.png) no-repeat center;}
+
+.hksq:hover{ background:#609001 url(../images/icon13.png) no-repeat center;}
+.wsxk:hover{ background:#b43225 url(../images/icon14.png) no-repeat center;}
+.ksbm:hover{ background:#0192f2 url(../images/icon15.png) no-repeat center;}
+.grxx:hover{ background:#b20827 url(../images/icon16.png) no-repeat center;}
+.kbcx:hover{ background:#2276ad url(../images/icon17.png) no-repeat center;}
+.cjcx:hover{ background:#833ca0 url(../images/icon18.png) no-repeat center;}
+.djks:hover{ background:#018067 url(../images/icon19.png) no-repeat center;}
+.wdks:hover{ background:#d8731a url(../images/icon20.png) no-repeat center;}
+
+
+
+.footer{width:100%; height:78px; background:#0661a8; color:#fff; text-align:center;}
+.footer p{ line-height:24px; padding:15px 0px;}
+
+.conList{ min-height:368px; border:1px solid #ddd; margin:20px 0px 20px 306px;}
+
+.listNav{ height:36px; background:#0661a8;}
+.listNav strong{ height:36px; line-height:36px; padding-left:10px; font-size:16px; color:#fff;}
+
+.listNews{ margin:0px 10px;}
+.listNews ul{ padding:12px 0px;}
+.listNews li{ line-height:32px; border-bottom:1px dashed #ddd; font-size:14px;}
+.listNews span{ float:right; color:#888;}
+
+.pageNum{ margin:0px 10px; height:36px; border-top:1px solid #ddd; line-height:36px; text-align:right; padding:10px 0px;}
+
+.hl_bt{ margin:0px 20px; height:auto; padding:15px 0px; text-align:center;}
+.hl_bt strong{ font-size:16px; line-height:28px;}
+.hl_sj{ margin:0px 20px; height:30px; border-bottom:1px dashed #ccc; line-height:30px; font-size:12px; text-align:center;}
+.hl_content{ margin:0px 20px; height:auto; padding:20px 0px; font-size:14px; line-height:28px;}
+.hl_content img{ width:600px; height:auto;}
+.hl_content p{ text-indent:28px; color:#555;}
+
+.navMenu{ float:left; width:286px; height:auto; margin:20px auto;}
+.navBox{ height:auto; overflow:hidden; border:1px solid #ddd;}
+.h20{ margin-top:20px;}
+.navTitles{ height:36px; background:#0661a8; color:#fff;}
+.navTitles strong{ height:36px; line-height:36px; padding-left:10px;}
+.navData{ width:286px; height:auto;}
+.navData li{ height:36px; line-height:36px; border-bottom:1px solid #eee; background:#fff;}
+.navData a{ display:block; text-decoration:none; font-weight:bold; padding-left:40px;}
+.navData a:hover,.navData a.navCurrent{ background:#fff; border-right:6px solid #ccc;}
+.navList{ margin:0px 10px;}
+.navList ul{ padding:8px 0px;}
+.navList li{ line-height:30px; border-bottom:1px dashed #eee;}
+.navList span{ float:right;}

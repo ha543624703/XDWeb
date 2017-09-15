@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{ font-size:12px; min-width:1000px;}
+img{ border:0px;}
+a,a:hover{ text-decoration:none;}
+
+.header{ min-width:1000px; max-width:1200px; height:85px; margin:0px auto; background:#2a83d1;}
+.logo{ float:left; width:356px; height:85px; background:url(../images/logo.gif) no-repeat;}
+.xxun{ float:right; width:464px; height:85px; background:url(../images/xxun.gif) no-repeat;}
+
+.main{ min-width:998px; max-width:1198px; height:auto; margin:10px auto; border:1px solid #b7d5df; background:url(../images/mainBg.gif) repeat-y; overflow:hidden;}
+.left{ float:left; width:209px; height:auto;}
+.right{ margin:0px 0px 0px 209px; height:auto;}
+.main1{ min-width:998px; max-width:1198px; height:auto; margin:10px auto; border:1px solid #b7d5df; overflow:hidden;}
+
+
+.nav1{ width:208px; height:40px; background:url(../images/nav1Bg.gif) repeat-x;}
+.nav1 h1{ height:40px; line-height:40px; color:#fff; padding-left:35px; font-size:14px; background:url(../images/tb1.gif) no-repeat 10px center;}
+
+.nav2{ width:208px; height:auto;}
+.nav2 li{ width:208px; height:34px; line-height:34px; border-bottom:1px solid #b9cad3;}
+.nav2 li.dr{ background:url(../images/tb2.gif) no-repeat 25px center;}
+.nav2 li.rz{ background:url(../images/tb3.gif) no-repeat 25px center;}
+.nav2 a{ height:34px; display:block; color:#333; font-weight:bold; padding-left:50px;}
+.nav2 li.dr a:hover,.nav2 li.dr a.current{ background:#d4e7f0 url(../images/tb2.gif) no-repeat 25px center;}
+.nav2 li.rz a:hover,.nav2 li.rz a.current{ background:#d4e7f0 url(../images/tb3.gif) no-repeat 25px center;}
+
+.menu{ width:100%; height:38px; background:#edf6fa; border-bottom:2px solid #b7d5df;}
+.menu strong{ line-height:38px; padding-left:10px;}
+
+.list{ height:auto; margin:0px 15px; padding:15px 0px; border-bottom:1px solid #b7d5df;}
+.nostyle{ border:0px;}
+.tabView{ width:740px; font-size:12px;}
+.tabView td{ height:20px; line-height:20px; padding:8px 0px;}
+
+.fileStyle{ width:290px; height:24px; border-width:1px; border-style:solid; border-color:#b7d5df; background:#fff; font-size:12px; cursor:pointer;}
+.download{ width:72px; height:24px; line-height:24px; background:url(../images/btn.gif) no-repeat; text-align:center;}
+.download a{ display:block; color:#fff;}
+.btn{ width:72px; height:24px; line-height:24px; border:0px; background:url(../images/btn.gif) no-repeat; color:#fff; cursor:pointer;}
+
+.czuo{ width:60px; height:22px; line-height:22px; border:1px solid #a7b5bc; background:#f0f0f0; text-align:center;}
+.czuo a{ display:block; color:#333;}
+
+.sm p{ line-height:18px;}
+
+.zhushi{ height:auto; line-height:30px; text-align:left; padding-bottom:12px;}
+.tabs{ width:100%; font-size:12px; border:1px solid #b7d5df;}
+.tabs td{ line-height:24px; padding:15px 8px;}
+
+.dataView{ padding-top:20px;}
+.tabData{ width:100%; border-collapse:collapse; color:#333;}
+.tabData th{ border:1px solid #b7d5df; line-height:24px; text-align:center; background:#edf6fa; padding:5px;}
+.tabData td{ border:1px solid #b7d5df; line-height:24px; text-align:center; padding:5px;}
+.dataView span{ padding-right:10px;}
+.dataView a{ width:auto; height:auto; padding:5px 10px; background:#2a83d1; border-radius:4px; color:#fff;}
+
+/*page*/
+.pages{ height:30px; padding:10px 0px 0px 0px;}
+.num{ float:left; width:240px; height:30px; line-height:30px;}
+.num strong{ color:#f00; padding:0px 3px;}
+.pageNum{ float:right; width:500px; height:30px; line-height:30px; text-align:right;}
+.pageNum span{ padding-left:1px;}
+.pageNum a{ background:#edf6fa; color:#333; padding:3px 8px; border:1px solid #b7d5df;}
+.pageNum a:hover,.pageNum a.curPage{ background:#2a83d1; color:#fff;}
+
+.footer{ min-width:1000px; max-width:1200px; height:66px; margin:0px auto; background:#2a83d1; text-align:center;}
+.footer p{ line-height:20px; padding:13px 0px; color:#fff;}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ font-size:12pt; background:#fff; color:#000; font-family:"Microsoft YaHei","Arial"; -webkit-tap-highlight-color:rgba(255,0,0,0);}
+input{ outline:none; font-size:12pt;}
+
+.banner{ width:1000px; height:90px; margin:0px auto; background:#3994e0; overflow:hidden;}
+.banner h1{ font-size:24px; line-height:90px; text-align:center; color:#fff;}
+
+.main{ width:1000px; height:auto; margin:0px auto; padding:15px 0px; overflow:hidden;}	
+
+.line{ width:auto; height:auto; overflow:hidden;}
+.line h1{ font-size:14pt; font-weight:normal; line-height:24px; padding:0px 5px;}
+.line em{ font-style:normal; color:#f00;}
+.line p{ font-size:9pt; color:#7c7c7c; line-height:24px; padding:0px 5px;}
+.inp{ border:1px solid #ccc; height:40px; margin:5px 5px 20px 5px; padding:0px 10px 0px 40px; background:url(../images/user.png) no-repeat 5px center; background-size:24px;}
+.inp1{ border:1px solid #ccc; height:40px; margin:5px 5px 20px 5px; padding:0px 10px;}
+.inp2{ border:1px solid #ccc; height:40px; margin:5px 5px 20px 5px; padding:0px 10px 0px 40px; background:url(../images/dateTb.png) no-repeat 5px center; background-size:24px;}
+.add{ border:1px solid #2d8fd9; -webkit-box-shadow:0 0 2px #6fbcf6; -moz-box-shadow:0 0 2px #6fbcf6; box-shadow:0 0 2px #6fbcf6;}
+.txt{ width:100%; height:24px; line-height:24px; border:0px; padding:8px 0px !important; background:none;}
+
+.sel{ height:40px; overflow:hidden; margin:5px 5px 20px 5px; background:#fff url(../images/arrow.png) no-repeat center right; background-size:20px; border:1px solid #ccc;} 
+.sel select{ padding:0px 10px; background:none; width:100%; font-size:16px; border:none; height:40px; -webkit-appearance:none;} 
+select::-ms-expand{ display:none;}
+
+.ldInfo1{ float:left; width:100px; height:auto;}
+.ldInfo2{ width:auto; height:auto; margin:0px 0px 0px 100px;}
+
+.Area{ margin:5px 5px 20px 5px; padding:5px; background:#fff; border:1px solid #ccc;}
+.txtArea{ width:100%; height:auto; line-height:24px; border:0px; font-size:12pt;}
+
+.btn{ margin:0px 5px; height:40px; background:#18a8f2; border-radius:3px;}
+.btn:hover{ background:#0693dc;}
+.sub{ width:100%; height:40px; border:0px; background:none; font-size:14pt; color:#fff;}
+.photoArea{ margin:5px 5px 20px 5px; height:150px;}
+.photoArea a,.photoArea a:hover{ display:inline-block; text-decoration:none;}
+.photoBox{ width:150px; height:150px; border:1px dashed #ccc; box-sizing:border-box;}
+.photoArea a:hover .photoBox{ border:1px dashed #2d8fd9;}
+.tpImg{ width:100%; height:66px; background:url(../images/noPhoto.png) no-repeat center; padding-top:20px;}
+.tpFont{ text-align:center;}
+.tpFont p{ line-height:24px; font-size:11pt; color:#7c7c7c;}
+.photoArea a:hover .tpFont p{ line-height:24px; font-size:11pt; color:#000;}

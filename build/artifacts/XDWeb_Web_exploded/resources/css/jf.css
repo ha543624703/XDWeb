@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.cz{ margin:15px 0px;}
+.account{ padding:0px 15px; height:50px; background:#fff; line-height:50px; font-size:16px; color:#555;}
+.account span.account_left{ float:left;}
+.account span.account_right{ float:right;}
+.dqye{ margin:15px 15px 30px 15px; font-size:16px; color:#555;}
+.dqye p{ line-height:20px;}
+.dqye strong{ font-size:24px;}
+.cor1{color:#ff8e00;}
+.cor2{color:#09bb07;}
+.czje{ margin-right:15px;}
+.jebox{ width:100%; height:42px; margin-bottom:15px;}
+.selbox{ float:left; width:33.33%; height:42px;}
+.boxstyle{ margin-left:15px; height:40px; border:1px solid #ccc; background:#fff; border-radius:5px; text-align:center; line-height:40px; font-size:16px;}
+.boxstyle a{ display:block; color:#555;}
+.boxstyle a.current{ display:block; background:#2f72ca; color:#fff; border-radius:5px;}
+.inje{ width:100%; height:50px; background:#fff;}
+.inp{ margin:0px 15px; height:50px;}
+.inp input{ width:100%; height:50px; border:0px; background:none; font-size:18px;}
+/* 一卡通充值 the end */
+
+/* 在线缴费 style */
+.injf{ width:100%; height:50px; background:#fff; margin-top:15px;}
+.btn{ margin:0px 15px 15px 15px; height:50px;}
+.sub{ width:100%; height:50px; border:0px; border-radius:8px; background:url(../images/Bg.gif) repeat; color:#fff; font-size:18px;}
+/* 在线缴费 the end */

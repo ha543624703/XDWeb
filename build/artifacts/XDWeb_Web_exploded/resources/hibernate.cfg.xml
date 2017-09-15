@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+ 
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="org.techzoo.springmvc.form.Importlog" />
+        <mapping class="org.techzoo.springmvc.form.Jbgz" />
+        <mapping class="org.techzoo.springmvc.form.Jxgz" />
+        <mapping class="org.techzoo.springmvc.form.Jtgz" />
+        <mapping class="org.techzoo.springmvc.form.Qtgz" />
+        <mapping class="org.techzoo.springmvc.form.ImportMain" />
+        <mapping class="org.techzoo.springmvc.form.ImportDetail" />
+        <mapping class="org.techzoo.springmvc.form.ImportDetailCode" />
+        <mapping class="org.techzoo.springmvc.form.WageUserId" />
+    </session-factory>
+	    
+</hibernate-configuration>

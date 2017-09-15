@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{ font-family:"微软雅黑"; font-size:16px; background:#f5f5f5; -webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; text-size-adjust: none; min-width:300px;}
+input{ font-family:"微软雅黑"; font-size:16px; color:#555; outline:none;}
+img{ border:0px;}
+li{ list-style:none;}
+a,a:hover{ color:#607fa6; text-decoration:none;}
+.global{ width:100%; height:auto;}
+.clear{ clear:both;}
+
+.nav{ width:100%; height:48px; background:url(../images/Bg.gif) repeat; text-align:center;}
+.menu{ padding:11px 15px;}
+.top1{ float:left; width:26px; height:26px;}
+.top1 img{ width:26px; height:26px;}
+.top2{ width:auto; height:26px; margin:0px 26px; line-height:26px;}
+.top2 h1{ font-size:18px; color:#fff;}
+
+.selBox{ margin:15px;}
+.sel{ width:100%; height:40px; overflow:hidden; background:#fff url(../images/arrow.png) no-repeat center right; border:1px solid #ddd; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;} 
+.sel select{ padding:5px 10px; background:transparent; width:100%; font-size:16px; border:none; height:40px; -webkit-appearance:none;} 
+select::-ms-expand{ display:none;}
+
+.title{ width:100%; height:auto; line-height:18px; text-align:center; padding:15px 0px; background:#fff; border-top:1px solid #ddd;}
+.title h1{ font-size:18px;}

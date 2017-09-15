@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#myView{ background:#f7f7f7; font-size:16px;}
+#myView .ViewLogo{ height:72px; background:#4d90e7; text-align:center; padding:20px 0px 0px 0px;}
+#myView .ViewLogo.op2{ background:#4d90e7;}
+#myView .ViewLogo img{ width:72px; height:72px;}
+.ViewName{ width:100%; height:auto; background:#4d90e7; text-align:center; padding:20px 0px;}
+.ViewName h1{ font-size:24px; line-height:30px; color:#fff;}
+.ViewList li i{ display:inline-block; width:60px; height:60px; margin-top:20px; margin-bottom:8px;}
+i.xsbd{ background:url("../images/ico01.png") no-repeat; background-size:60px 60px;}
+i.zxjf{ background:url("../images/ico02.png") no-repeat; background-size:60px 60px;}
+i.cjcx{ background:url("../images/ico03.png") no-repeat; background-size:60px 60px;}
+i.kbcx{ background:url("../images/ico04.png") no-repeat; background-size:60px 60px;}
+i.yecx{ background:url("../images/ico05.png") no-repeat; background-size:60px 60px;}
+i.wdqj{ background:url("../images/ico06.png") no-repeat; background-size:60px 60px;}
+
+.ViewList{ margin:0 auto; border-left:1px solid #eee; border-top:1px solid #eee;}
+.ViewList li{ float:left; width:33%; height:136px; line-height:20px; border-right:1px solid #eee; border-bottom:1px solid #eee; text-align:center;}

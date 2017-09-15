@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{ font-size:12px; background:#b7e4fb; font-size:12px;}
+li{ list-style:none;}
+img{ border:0px;}
+a,a:hover{ text-decoration:none;}
+
+.banner{ width:1000px; height:92px; margin:0px auto; background-image:url(../images/banner.png);}
+.nav1{ width:1000px; height:30px; margin:0px auto; background:#3a9de6 url(../images/tb.gif) no-repeat 10px center; border-top:1px solid #fff;}
+.nav1 h1{ font-size:14px; color:#fff; line-height:30px; padding-left:26px;}
+
+.nav2{ width:1000px; height:30px; margin:0px auto; background:#88c6f4 url(../images/tb.gif) no-repeat 10px center; border-top:1px solid #fff;}
+.nav2 h1{ font-size:12px; color:#fff; line-height:30px; padding-left:26px;}
+
+.main{ width:1000px; height:auto; margin:0px auto; padding-top:15px; background:#fff;}
+
+.navgate{ width:1000px; height:25px; border-bottom:1px solid #4ea2fa;}
+.navgate ul{ margin-left:10px;}
+.navgate li{ float:left; width:66px; height:22px; line-height:22px; padding:1px; border-top:1px solid #4ea2fa; border-left:1px solid #4ea2fa; border-right:1px solid #4ea2fa; text-align:center; margin-right:3px;}
+.navgate a{ display:block; width:66px; height:22px; background:#f2f6f8; color:#03478e;}
+.navgate a:hover,.navgate a.current{ background:#298ffc; color:#fff;}
+
+.main1{ width:960px; height:auto; margin:0px auto; padding:15px 0px; border-bottom:1px solid #e5e5e5;}
+.tabView{ width:100%;}
+.tabView td{ height:40px; line-height:40px;}
+
+.inp{ width:auto height:40px;}
+.txt{ width:200px; height:28px; line-height:28px; border:1px solid #4ea2fa; padding:0px 10px;}
+.bk{ *margin-top:10px; padding-left:5px;}
+.bk1{ float:left; padding-left:8px; *margin-top:10px;}
+.fileStyle{ width:276px; height:25px; border-width:1px; border-style:solid; border-color:#a7b5bc #ced9df #ced9df #a7b5bc; background:#fff; font-size:12px; cursor:pointer;}
+.btn{ width:72px; height:25px; border:0px; background:#3c95c8; border-radius:4px; color:#fff; font-size:12px; cursor:pointer;}
+.bk p{ line-height:18px; padding-right:120px;}
+.bk a{ width:auto; height:auto; padding:6px 10px; background:#3c95c8; border-radius:4px; color:#fff;}
+.daoru{ float:left; padding:10px 0px 10px 8px; text-align:center;}
+.daoru a{ display:block; width:68px; height:20px; line-height:20px; background:#3c95c8; border-radius:4px; color:#fff;}
+
+.mb{ width:60px; height:25px; border-width:1px; border-style:solid; border-color:#a7b5bc #ced9df #ced9df #a7b5bc; background:#f0f0f0; color:#333; font-size:12px; cursor:pointer;}
+
+.footer{ width:1000px; height:72px; margin:0px auto; padding:15px 0px; background:url(../images/footerBg.png) repeat-x; text-align:center;}
+.footer p{ line-height:24px;}
+
+.main2{ width:960px; height:auto; margin:0px auto; padding:20px 0px;}
+.zhushi{ width:960px; height:30px; line-height:20px; text-align:center;}
+.search{ width:900px; height:40px; margin:0px auto; padding:15px 0px; border:1px solid #e5e5e5;}
+.sear{ width:70px; height:30px; border:0px; background:#3c95c8; border-radius:4px; color:#fff; font-size:12px; cursor:pointer;}
+
+.dataView{ width:900px; height:auto; margin:15px auto 0px auto;}
+.tabData{ width:100%; border-collapse:collapse; color:#333;}
+.tabData th{ border:1px solid #c5c5c5; line-height:24px; text-align:center; background:#f5f5f5; padding:5px;}
+.tabData td{ border:1px solid #c5c5c5; line-height:24px; text-align:center; padding:5px;}
+.dataView span{ padding-right:10px;}
+.dataView a.current{ width:auto; height:auto; padding:5px 8px; background:#3c95c8; border-radius:4px; color:#fff;}
+.dataView a.nocurrent{ width:auto; height:auto; padding:5px 8px; background:#aaa; border-radius:4px; color:#fff;}
+
+.chaxun{ width:980px; height:auto; margin:0px auto; padding:15px 10px; background:#fff; border-bottom:1px solid #e5e5e5;}
+.xz{ height:40px; line-height:40px;}
+.main3{ width:960px; height:auto; margin:0px auto; background:#fff; padding:15px 20px;}
+
+#con{ height:auto; font-size:12px;}
+.con{ height:25px; border-bottom:1px solid #4ea2fa;}
+.con li{ float:left; width:auto; height:24px; padding:0px 10px; cursor:pointer; border-top:1px solid #4ea2fa; border-left:1px solid #4ea2fa; border-right:1px solid #4ea2fa; line-height:24px; text-align:center; margin-right:3px;}
+.normaltab{ background:#f2f6f8; color:#03478e;}
+.hovertab{ background:#298ffc; color:#fff;}
+.dis{ display:block;}
+.undis{ display:none;}
+.ctt{ width:auto; height:auto;}
+.ctt h1{ height:50px; line-height:50px; font-size:14px; color:#333; text-align:center;}
+.tabBox{ width:980px; height:auto; overflow:auto;}
+.tabsData{ width:980px; text-align:center; border-collapse:collapse; color:#555; table-layout:fixed;}
+.tabsData th{ border:1px solid #c5c5c5; width:120px; line-height:20px; text-align:center; background:#efefef; padding:5px;}
+.tabsData td{ border:1px solid #c5c5c5; width:120px; line-height:20px; text-align:center; padding:5px;}
+
+/*page*/
+.pages{ width:960px; height:30px; position:absolute; padding:10px 0px;}
+.num{ float:left; width:260px; height:30px; line-height:30px;}
+.num strong{ color:#f00; padding:0px 3px;}
+.pageNum{ float:right; width:700px; height:30px; line-height:30px; text-align:right;}
+.pageNum span{ padding-left:1px;}
+.pageNum a{ background:#f2f6f8; color:#333; padding:3px 8px; border:1px solid #c5c5c5;}
+.pageNum a:hover,.pageNum a.curPage{ background:#298ffc; color:#fff;}
+
+.tycx{ width:980px; height:22px; line-height:22px; margin:0px auto; padding:15px 10px; background:#fff; border-bottom:1px solid #e5e5e5;}
+.tySear{ width:60px; height:22px; border:0px; background:#3c95c8; border-radius:4px; color:#fff; font-size:12px; cursor:pointer;}
+.cx01,.cx02{ float:left; padding-left:10px;}
+.cx02{ width:70px; height:22px;}
+.cx02 a{ display:block; width:70px; height:22px; line-height:22px; text-align:center; background:#3c95c8; border-radius:4px; color:#fff; font-size:12px;}
